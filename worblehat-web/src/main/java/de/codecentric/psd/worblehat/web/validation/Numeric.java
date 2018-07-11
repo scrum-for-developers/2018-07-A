@@ -15,7 +15,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Documented
 public @interface Numeric {
 
-	String message() default "{de.codecentric.psd.worblehat.web.validation.Numeric}";
+	String message() default "{notvalid.numeric}";
 
 	Class<?>[] groups() default {};
 

@@ -15,7 +15,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Documented
 public @interface ISBN {
 
-	String message() default "{de.codecentric.psd.worblehat.web.validation.ISBN}";
+	String message() default "{notvalid.isbn}";
 
 	Class<?>[] groups() default {};
 

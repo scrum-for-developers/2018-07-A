@@ -9,12 +9,12 @@ import org.hibernate.validator.constraints.NotEmpty;
  */
 public class BookBorrowFormData {
 
-	@NotEmpty(message = "{empty.borrowCmd.isbn}") 
-	@ISBN(message = "{notvalid.borrowCmd.isbn}")
+	@NotEmpty(message = "{empty.isbn}")
+	@ISBN
 	private String isbn;
 
-	@NotEmpty(message = "{empty.borrowCmd.email}")
-	@Email(message = "{notvalid.borrowCmd.email}")
+	@NotEmpty(message = "{empty.email}")
+	@Email(message = "{notvalid.email}")
 	private String email;
 
 	public String getIsbn() {
