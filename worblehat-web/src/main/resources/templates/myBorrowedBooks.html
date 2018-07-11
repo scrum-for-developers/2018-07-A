@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>My Borrowed Books - Worblehat Bookmanager</title>
+</head>
+<body>
+<h1>Show my borrowed Books</h1>
+
+<form method="GET">
+    Email Address:<input id="emailAddress" type="text"/>
+    <br />
+    <input type="submit" id="showMyBooks" value="Show my borrowed Books" />
+
+</form>
+
+<hr />
+<a th:href="@{/}">Back to Home</a>
+</body>
+</html>
