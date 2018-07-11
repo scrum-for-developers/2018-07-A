@@ -199,4 +199,18 @@ public class StandardBookServiceTest {
 		verify(bookRepository).deleteAll();
 		verify(borrowingRepository).deleteAll();
 	}
+
+	@Test
+	public void shouldGetAllBorrowedBooksOfUser() {
+		List<Borrowing> borrowings = new ArrayList<>();
+		borrowings.add(aBorrowing);
+
+		List<Book> expectedBooks = new ArrayList<>();
+		expectedBooks.add(aBorrowing.getBorrowedBook());
+
+		when(borrowingRepository.findBorrowingsByBorrower(BORROWER_EMAIL)).thenReturn(borrowings);
+
+		List<Book> actualBooks = bookService.findBooksByBorrower(BORROWER_EMAIL);
+		assertThat(actualBooks, is(expectedBooks));
+	}
 }
