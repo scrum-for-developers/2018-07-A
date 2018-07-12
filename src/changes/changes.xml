@@ -46,6 +46,9 @@
             <action dev="team-404" type="fix" issue="WB-8001">
                 Update error messages to be friendly
             </action>
+            <action dev="team-404" type="update" issue="WB-126">
+                Show current version number
+            </action>
         </release>
     </body>
 </document>
