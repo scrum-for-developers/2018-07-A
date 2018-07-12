@@ -43,6 +43,9 @@
             <action dev="team-404" type="update" issue="WB-111">
                 Add book descriptions
             </action>
+            <action dev="team-404" type="fix" issue="WB-8001">
+                Update error messages to be friendly
+            </action>
         </release>
     </body>
 </document>
