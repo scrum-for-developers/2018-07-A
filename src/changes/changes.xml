@@ -6,7 +6,8 @@
 		<author email="markus.bonsch@codecentric.de">Markus Bonsch</author>
 	</properties>
 	<body>
-		<release version="0.8" date="2011-04-05" description="First release">
+		<release version="0.8" date="2011-04-05"
+			description="First release">
 			<action dev="betaworblers" type="update">
 				Adding new books.
 			</action>
@@ -21,7 +22,23 @@
 		<release version="1.0" date="2011-04-06"
 			description="Release with much improved functionality">
 			<action dev="betaworblers" type="update">
-				Return all borrowed books by one member.
+				Return all borrowed books by
+				one member.
+			</action>
+		</release>
+
+		<release version="1.1.0" date="2018-07-11"
+			description="Release of the increment">
+			<action dev="team-404" type="update" issue="WB-104">
+				Show improved
+				validation messages
+			</action>
+		</release>
+
+		<release version="1.2.0" date="2018-07-12"
+			description="Show book descriptions">
+			<action dev="team-404" type="update" issue="WB-125">
+				Upgrade technology stack - Spring boot 2.0.3
 			</action>
 		</release>
 	</body>
