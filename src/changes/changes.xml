@@ -35,10 +35,13 @@
             </action>
         </release>
 
-        <release version="1.2.0" date="2018-07-12"
+        <release version="1.3.0" date="2018-07-12"
                  description="Show book descriptions">
             <action dev="team-404" type="update" issue="WB-125">
                 Upgrade technology stack - Spring boot 2.0.3
+            </action>
+            <action dev="team-404" type="update" issue="WB-111">
+                Add book descriptions
             </action>
         </release>
     </body>

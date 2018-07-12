@@ -14,7 +14,7 @@ public class BookTest {
 
     @Before
     public void setup() {
-        BOOK = new Book("Titel", "Author", "2", "1", 1234);
+        BOOK = new Book("Titel", "Author", "2", "1", 1234, "Demo Description");
     }
 
     @Test
