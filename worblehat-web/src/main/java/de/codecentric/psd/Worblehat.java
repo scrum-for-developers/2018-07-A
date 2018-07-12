@@ -13,13 +13,12 @@ public class Worblehat {
 		Scanner scan = new Scanner(System.in);
 		ConfigurableApplicationContext applicationContext = SpringApplication.run(Worblehat.class, args);
 
-		// this code is basically to (a) demonstrate how to stop a Spring application and (b)
-		// get rid of the SonarQube warning to close the context properly
+		// this code is basically to demonstrate how to stop a Spring application
 		System.out.println("Enter 'stop' to stop Worblehat.");
-		String line = "";
+		String line;
 		do {
 			line = scan.nextLine();
-		} while (!line.equals("stop"));
+		} while (!"stop".equals(line));
 		applicationContext.close();
 	}
 
