@@ -50,5 +50,13 @@
                 Show current version number
             </action>
         </release>
+
+        <release version="1.4.0" date="2018-07-13"
+                 description="Improve ISBN support">
+            <action dev="team-404" type="update" issue="WB-127">
+                ISBN is unique for edition
+            </action>
+        </release>
+
     </body>
 </document>
