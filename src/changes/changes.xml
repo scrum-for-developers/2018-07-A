@@ -56,6 +56,9 @@
             <action dev="team-404" type="update" issue="WB-127">
                 ISBN is unique for edition
             </action>
+            <action dev="team-404" type="update" issue="WB-117">
+                ISBN13 support
+            </action>
         </release>
 
     </body>
